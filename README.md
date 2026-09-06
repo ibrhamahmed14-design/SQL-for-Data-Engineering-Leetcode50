@@ -1,56 +1,71 @@
-# 🚀 SQL Learning Journey & Code Vault
+<div align="center">
 
-Welcome to my personal SQL repository! This space serves as a dedicated log of my hands-on journey mastering Relational Database Management Systems, focusing on **T-SQL** and **Microsoft SQL Server** via **SQL Server Management Studio (SSMS)**.
+# ⚡ SQL for Data Engineering Lab
 
-Rather than just watching theory, every concept here is practiced, tested, and documented.
+<p align="center">
+  <b>A disciplined repository tracking my hands-on journey through LeetCode 50 SQL and practical data engineering drills.</b>
+</p>
 
----
-
-## 📌 Repository Core File
-
-All primary query exercises, table definitions, and practical demonstrations are written and maintained in:
-👉 **[`SQL-learning.sql`](./SQL-learning.sql)**
-
----
-
-## 🧭 What I Have Mastered So Far
-
-### 1. Database Modeling & Mapping
-- [x] **Conceptual Modeling (ERD):** Entities, attributes (composite, derived, multi-valued), and relationships ($1:1$, $1:M$, $M:N$).
-- [x] **Relational Schema Mapping:** Transforming ER models into physical database tables and mapping $M:N$ relationships using Junction/Bridge tables.
-
-### 2. DDL (Data Definition Language)
-- [x] Creating, modifying, and dropping databases and schemas (`CREATE`, `ALTER`, `DROP`, `TRUNCATE`).
-- [x] Enforcing data integrity using constraints: `PRIMARY KEY`, `FOREIGN KEY` (with `ON DELETE` / `ON UPDATE CASCADE`), `UNIQUE`, `CHECK`, and `NOT NULL`.
-- [x] Handling temporal defaults (`DEFAULT GETDATE()`) and configuring **Computed Columns** (both virtual and `PERSISTED` on disk).
-
-### 3. DML (Data Manipulation Language)
-- [x] Inserting records (`INSERT INTO ... VALUES`, multi-row inserts).
-- [x] Modifying existing data safely using conditional filters (`UPDATE ... SET ... WHERE`).
-- [x] Removing targeted records (`DELETE FROM ... WHERE`) versus resetting tables (`TRUNCATE`).
-
-### 4. DQL (Data Query Language) & SELECT Variations
-- [x] Basic data retrieval (`SELECT *`, specific column projections, column aliasing with `AS`).
-- [x] Eliminating duplicates (`SELECT DISTINCT`).
-- [x] Row filtering and condition evaluation (`WHERE`, `AND`, `OR`, `NOT`, `IN`, `BETWEEN`, `LIKE` pattern matching).
-- [x] Sorting and pagination logic (`ORDER BY ASC/DESC`, `TOP (N)`, `OFFSET-FETCH`).
-- [x] Aggregations and grouping (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `GROUP BY`, `HAVING`).
+<!-- Badges Section -->
+<p align="center">
+  <img src="https://img.shields.io/badge/LeetCode_50-02%2F50_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Progress" />
+  <img src="https://img.shields.io/badge/Track-Data_Engineering-007ACC?style=for-the-badge&logo=apache-airflow&logoColor=white" alt="Data Engineering Track" />
+  <img src="https://img.shields.io/badge/Dialect-MS_SQL_Server-CC292B?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="MS SQL Server" />
+  <img src="https://img.shields.io/badge/Status-Active_Practice-2ea44f?style=for-the-badge&logo=gitbook&logoColor=white" alt="Active Practice" />
+</p>
 
 ---
 
-## 🛠️ Tech Stack & Environment
+</div>
 
-- **Database Engine:** Microsoft SQL Server
-- **IDE / Client:** SQL Server Management Studio (SSMS)
-- **Language / Dialect:** Transact-SQL (T-SQL)
-- **Version Control:** Git & GitHub
+## 📌 Repository Overview
+
+This repository is an active workspace built to bridge competitive SQL problem-solving with core **Data Engineering** querying patterns.
+
+Every `.sql` file in this repository is **self-contained**: each script contains the problem context, schema definition, and verified SQL solution embedded directly inside.
+
+> **💡 Methodology & Transparency:**  
+> All query logic, problem analysis, and solutions in this repository are **independently solved by me**. Generative AI is utilized strictly as an engineering assistant for **standardized code formatting, template generation, and documentation cleanup** to maintain consistent presentation standards across git commits.
 
 ---
 
-## 🔮 Upcoming Milestones
+## 🎯 Learning Scope & Core Focus
 
-- [ ] Multi-table `JOIN` operations (`INNER`, `LEFT`, `RIGHT`, `FULL OUTER`, `CROSS`).
-- [ ] Subqueries & Correlated Subqueries.
-- [ ] Common Table Expressions (`WITH CTE`).
-- [ ] Analytical & Window Functions (`ROW_NUMBER`, `RANK`, `DENSE_RANK`, `LEAD/LAG`).
-- [ ] Indexing strategies and query optimization.
+The queries and exercises in this repo progressively target foundational database engineering pillars:
+- **Retrieval & Logic**: Complex joins, subqueries, and Common Table Expressions (CTEs).
+- **Analytical Windowing**: `ROW_NUMBER`, `DENSE_RANK`, `LEAD`, and `LAG` for sequential event data.
+- **Transformations & Cleaning**: Type casting, conditional pivoting with `CASE WHEN`, and defensive handling of `NULL` values (Three-Valued Logic).
+- **Data Integrity & Staging**: Deduplication, schema validation, and incremental query patterns.
+
+---
+
+## 🏷️ Naming Convention
+
+Files are organized using clear, predictable prefixes:
+- **`LEET-XX-problem-name.sql`**: Curated tasks from the official **LeetCode SQL 50** study plan.
+- **`P-XX-topic-description.sql`**: Ad-hoc learning drills, pipeline simulations, and custom exercises.
+
+---
+
+## 📊 Progress Tracker
+
+| Tag | Problem / Exercise | Topic | Difficulty | Solution |
+|:---:|:---|:---|:---:|:---:|
+| `LEET-01` | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | Basic Filtering | `Easy` | [LEET-01-recyclable-and-low-fat-products.sql](./LEET-01-recyclable-and-low-fat-products.sql) |
+| `LEET-02` | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | NULL Handling & 3VL | `Easy` | [LEET-02-find-customer-referee.sql](./LEET-02-find-customer-referee.sql) |
+| `LEET-03` | *Next Target* | Joins / Aggregates | `Easy/Medium` | *In Progress* |
+
+---
+
+## 🛠️ Stack
+
+- **Dialect**: Microsoft SQL Server (T-SQL)
+- **Environment**: LeetCode & Local SQL Practice Sandbox
+
+---
+
+<div align="center">
+
+*Continuous query optimization and structured practice.*
+
+</div>
