@@ -31,7 +31,13 @@ Files are organized using clear, predictable prefixes:
 | **LEET-01** | Recyclable and Low Fat Products | Basic Filtering | Easy | [`LEET-01-recyclable-and-low-fat-products.sql`](LEET-01-recyclable-and-low-fat-products.sql) |
 | **LEET-02** | Find Customer Referee | NULL Handling & 3VL | Easy | [`LEET-02-find-customer-referee.sql`](LEET-02-find-customer-referee.sql) |
 | **LEET-03** | Big Countries | Basic Filtering & Boolean Logic | Easy | [`LEET-03-Big-Countries.sql`](LEET-03-Big-Countries.sql) |
-| **LEET-04** | Next Target | Basic Filtering / Joins | Easy/Medium | *In Progress* |
+| **LEET-04** | Article Views I | Basic Filtering & Distinct | Easy | [`LEET-04-article-views-i.sql`](LEET-04-article-views-i.sql) |
+| **LEET-05** | Invalid Tweets | String Functions & Filtering | Easy | [`LEET-05-invalid-tweets.sql`](LEET-05-invalid-tweets.sql) |
+| **LEET-06** | Replace Employee ID With The Unique Identifier | Left Joins | Easy | [`LEET-06-replace-employee-id-with-the-unique-identifier.sql`](LEET-06-replace-employee-id-with-the-unique-identifier.sql) |
+| **LEET-07** | Product Sales Analysis I | Joins | Easy | [`LEET-07-product-sales-analysis-i.sql`](LEET-07-product-sales-analysis-i.sql) |
+| **LEET-08** | Customer Who Visited without Making Any Transactions | Left Joins & Aggregations | Easy | [`LEET-08-customer-who-visited-without-making-any-transactions.sql`](LEET-08-customer-who-visited-without-making-any-transactions.sql) |
+| **LEET-09** | Rising Temperature | Self Joins & Date Functions | Easy | [`LEET-09-rising-temperature.sql`](LEET-09-rising-temperature.sql) |
+| **LEET-10** | Average Time of Process per Machine | Self Joins & Aggregations | Medium | [`LEET-10-average-time-of-process-per-machine.sql`](LEET-10-average-time-of-process-per-machine.sql) |
 
 ## 🛠️ Stack
 
