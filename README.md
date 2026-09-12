@@ -38,6 +38,7 @@ The queries and exercises in this repo progressively target foundational databas
 ## 🏷️ Naming Convention
 
 Files are organized using clear, predictable prefixes:
+
 * `LEET-XX-problem-name.sql`: Curated tasks from the official LeetCode SQL 50 study plan.
 * `P-XX-topic-description.sql`: Ad-hoc learning drills, pipeline simulations, and custom exercises.
 
@@ -45,19 +46,19 @@ Files are organized using clear, predictable prefixes:
 
 ## 📊 Progress Tracker
 
-| Tag | Problem / Exercise | Topic | Difficulty | Solution |
-| :---: | :--- | :--- | :---: | :--- |
-| **LEET-01** | Recyclable and Low Fat Products | Basic Filtering | 🟢 Easy | [`View Code`](LEET-01-recyclable-and-low-fat-products.sql) |
-| **LEET-02** | Find Customer Referee | NULL Handling & 3VL | 🟢 Easy | [`View Code`](LEET-02-find-customer-referee.sql) |
-| **LEET-03** | Big Countries | Basic Filtering & Boolean Logic | 🟢 Easy | [`View Code`](LEET-03-Big-Countries.sql) |
-| **LEET-04** | Article Views I | Basic Filtering & Distinct | 🟢 Easy | [`View Code`](LEET-04-article-views-i.sql) |
-| **LEET-05** | Invalid Tweets | String Functions & Filtering | 🟢 Easy | [`View Code`](LEET-05-invalid-tweets.sql) |
-| **LEET-06** | Replace Employee ID With The Unique Identifier | Left Joins | 🟢 Easy | [`View Code`](LEET-06-replace-employee-id-with-the-unique-identifier.sql) |
-| **LEET-07** | Product Sales Analysis I | Joins | 🟢 Easy | [`View Code`](LEET-07-product-sales-analysis-i.sql) |
-| **LEET-08** | Customer Who Visited without Making Any Transactions | Left Joins & Aggregations | 🟢 Easy | [`View Code`](LEET-08-customer-who-visited-without-making-any-transactions.sql) |
-| **LEET-09** | Rising Temperature | Self Joins & Date Functions | 🟢 Easy | [`View Code`](LEET-09-rising-temperature.sql) |
-| **LEET-10** | Average Time of Process per Machine | Self Joins & Aggregations | 🟡 Medium | [`View Code`](LEET-10-average-time-of-process-per-machine.sql) |
-| **LEET-11** | Employee Bonus | Left Joins & NULL Handling | 🟢 Easy | [`View Code`](LEET-11-employee-bonus.sql) |
+|     Tag     | Problem / Exercise                                   | Topic                                  | Difficulty | Solution                                                                        |
+| :---------: | :--------------------------------------------------- | :------------------------------------- | :--------: | :------------------------------------------------------------------------------ |
+| **LEET-01** | Recyclable and Low Fat Products                      | Basic Filtering                        |   🟢 Easy  | [`View Code`](LEET-01-recyclable-and-low-fat-products.sql)                      |
+| **LEET-02** | Find Customer Referee                                | NULL Handling & 3VL                    |   🟢 Easy  | [`View Code`](LEET-02-find-customer-referee.sql)                                |
+| **LEET-03** | Big Countries                                        | Basic Filtering & Boolean Logic        |   🟢 Easy  | [`View Code`](LEET-03-Big-Countries.sql)                                        |
+| **LEET-04** | Article Views I                                      | Basic Filtering & Distinct             |   🟢 Easy  | [`View Code`](LEET-04-article-views-i.sql)                                      |
+| **LEET-05** | Invalid Tweets                                       | String Functions & Filtering           |   🟢 Easy  | [`View Code`](LEET-05-invalid-tweets.sql)                                       |
+| **LEET-06** | Replace Employee ID With The Unique Identifier       | Left Joins                             |   🟢 Easy  | [`View Code`](LEET-06-replace-employee-id-with-the-unique-identifier.sql)       |
+| **LEET-07** | Product Sales Analysis I                             | Joins                                  |   🟢 Easy  | [`View Code`](LEET-07-product-sales-analysis-i.sql)                             |
+| **LEET-08** | Customer Who Visited without Making Any Transactions | Left Joins & Aggregations              |   🟢 Easy  | [`View Code`](LEET-08-customer-who-visited-without-making-any-transactions.sql) |
+| **LEET-09** | Rising Temperature                                   | Self Joins & Date Functions            |   🟢 Easy  | [`View Code`](LEET-09-rising-temperature.sql)                                   |
+| **LEET-10** | Average Time of Process per Machine                  | Self Joins & Aggregations              |  🟡 Medium | [`View Code`](LEET-10-average-time-of-process-per-machine.sql)                  |
+| **LEET-11** | Students and Examinations                            | Cross Joins, Left Joins & Aggregations |   🟢 Easy  | [`View Code`](LEET-11-students-and-examinations.sql)                            |
 
 ---
 
